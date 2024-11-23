@@ -1,9 +1,9 @@
-from calendar_app import Calendar
 from event import Event
+from calendar_app import Calendar
 
 import sys
+from datetime import datetime
 from tabulate import tabulate
-from datetime import datetime, date, time
 
 def parse_date(date_str):
     """
