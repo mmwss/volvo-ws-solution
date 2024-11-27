@@ -1,4 +1,4 @@
-from assistant import NutritionalAssistant
+from assistant.assistant import NutritionalAssistant
 
 assistant = NutritionalAssistant(
   'John',
